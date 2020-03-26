@@ -2,8 +2,6 @@
 > Windows XP Mini is a Lite Version of Windows XP.
 > 
 > It is a htmlifyed Scratch Project from Vortex101 (c) 2015 Vortex101.
-> 
-> The HTML and EXE version is here.
 ### To embed
 1) Insert this code to your PHP or HTML :| :
 ~~~html
