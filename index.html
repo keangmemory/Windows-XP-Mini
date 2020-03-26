@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Windows XP Mini</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Windows XP Mini Editon!</h1>
+    <p>Windows XP Mini is a Lite Version of Windows XP.</p>
+
+    <p>It is a htmlifyed Scratch Project from Vortex101 (c) 2015 Vortex101.</p>
+
+    <p>The HTML and SB3 versions are in this repl.</p>
+    <b>Below is a working embed of Windows XP.</b>
+    <hr>
+    <embed id="winxp" src="main.html" width="427px" height="320px" ></embed>
+    <br>
+    <button onclick="openFullscreen();">Open Windows XP in fullscreen (Do not use it as a prank)</button>
+    <p><b>Tip:</b> To Exit full screen, press <code>Esc</code>.</p>
+    <script>
+    var elem = document.getElementById("winxp");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+    </script>
+  </body>
+</html>
