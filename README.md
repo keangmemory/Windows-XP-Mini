@@ -7,7 +7,7 @@
 ### To embed
 1) Insert this code to your PHP or HTML :| :
 ~~~html
-<embed id="windowsxpdemo" src="https://windows-xp-mini-git-repl--ganeshasharma.repl.co/main.html" width="427px" height="320px" ></embed>
+<embed id="windowsxpdemo" src="http://windows-xp-mini-git-repl--ganeshasharma.repl.co/main.html" width="427px" height="320px" ></embed>
 <br>
 <button onclick="openFullscreen();">Open Windows XP in fullscreen (Do not use it as a prank)</button>
 <script>
