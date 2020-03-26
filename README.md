@@ -26,6 +26,6 @@ function openFullscreen() {
 </script>
 ~~~
 2) Save your code :8
-3) Share it with your friends! :heart:
+3) Share it with your friends! <3
 ------
 Thank you ♡
